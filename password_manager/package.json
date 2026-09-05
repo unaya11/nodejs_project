@@ -1,0 +1,17 @@
+{
+  "name": "password_manager",
+  "version": "1.0.0",
+  "description": "A Node app for storing passwords",
+  "license": "ISC",
+  "author": "Jon Wecler",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "mongodb": "^7.6.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
